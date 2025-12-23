@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplaca Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./assets/logo/logo.png" alt="Logo">
+        </div>
+        <div class="heading">
+            <h3>Aplaca Image Generator</h3>
+        </div>
+        <button class="download-btn">Download</button>
+    </nav>
+
+    <main class="builder">
+        <section class="preview">
+            <div class="aplaca">
+                <img class="layer-background"  src="assets/backgrounds/blue50.png">
+                <img class="layer-neck"        src="assets/neck/default.png">
+                <img class="layer-hair"        src="assets/hair/default.png">
+                <img class="layer-ears"        src="assets/ears/default.png">
+                <img class="layer-nose"        src="assets/nose.png">
+                <img class="layer-mouth"       src="assets/mouth/default.png">
+                <img class="layer-eyes"        src="assets/eyes/default.png">
+                <img class="layer-accessories" src="assets/accessories/earings.png">
+            </div>
+        </section>
+        <section class="controls">
+            <div class="slider-wrapper">
+                <div class="bg-selection-window"></div>   
+                <h4 class="title-heading">BackGround</h4>
+                    <ul class="bg">
+                        <button type="button" data-src="assets/backgrounds/blue50.png">Blue50</button>
+                        <button type="button" data-src="assets/backgrounds/blue60.png">Blue60</button>
+                        <button type="button" data-src="assets/backgrounds/blue70.png">Blue70</button>
+                        <button type="button" data-src="assets/backgrounds/darkblue30.png">DarkBlue30</button>
+                        <button type="button" data-src="assets/backgrounds/darkblue50.png">DarkBlue50</button>
+                        <button type="button" data-src="assets/backgrounds/darkblue70.png">DarkBlue70</button>
+                        <button type="button" data-src="assets/backgrounds/green50.png">Green50</button>
+                        <button type="button" data-src="assets/backgrounds/green60.png">Green60</button>
+                        <button type="button" data-src="assets/backgrounds/green70.png">Green70</button>
+                        <button type="button" data-src="assets/backgrounds/grey40.png">Grey40</button>
+                        <button type="button" data-src="assets/backgrounds/grey70.png">Grey70</button>
+                        <button type="button" data-src="assets/backgrounds/grey80.png">Grey80</button>
+                        <button type="button" data-src="assets/backgrounds/red50.png">Red50</button>
+                        <button type="button" data-src="assets/backgrounds/red60.png">Red60</button>
+                        <button type="button" data-src="assets/backgrounds/red70.png">Red70</button>
+                        <button type="button" data-src="assets/backgrounds/yellow50.png">Yellow50</button>
+                        <button type="button" data-src="assets/backgrounds/yellow60.png">Yellow60</button>
+                        <button type="button" data-src="assets/backgrounds/yellow70.png">Yellow70</button>
+
+                    </ul>
+                </div>
+
+                <div class="neck-selection-window"></div>   
+                <h4 class="title-heading">Neck</h4>
+                    <ul class="neck">
+                        <button type="button" data-src="assets/neck/default.png">Default</button>
+                        <button type="button" data-src="assets/neck/bend-backward.png">Bend-Backward</button>
+                        <button type="button" data-src="assets/neck/bend-forward.png">Bend-Forward</button>
+                        <button type="button" data-src="assets/neck/thick.png">Thick</button>
+                    </ul>
+                </div>
+
+                <div class="hair-selection-window"></div>   
+                <h4 class="title-heading">Hair</h4>
+                    <ul class="hair">
+                        <button type="button" data-src="assets/hair/default.png">Default</button>
+                        <button type="button" data-src="assets/hair/bang.png">Bang</button>
+                        <button type="button" data-src="assets/hair/curls.png">Curls</button>
+                        <button type="button" data-src="assets/hair/elegant.png">Elegant</button>
+                        <button type="button" data-src="assets/hair/fancy.png">Fancy</button>
+                        <button type="button" data-src="assets/hair/short.png">Short</button>
+                    </ul>
+                </div>
+
+                <div class="accessories-selection-window"></div>   
+                <h4 class="title-heading">Accessories</h4>
+                    <ul class="accessories">
+                        <button type="button" data-src="assets/accessories/earings.png">Ear-rings</button>
+                        <button type="button" data-src="assets/accessories/flower.png">Flower</button>
+                        <button type="button" data-src="assets/accessories/glasses.png">Glasses</button>
+                        <button type="button" data-src="assets/accessories/headphone.png">Headphones</button>
+                    </ul>
+                </div>
+
+                <div class="ears-selection-window"></div>   
+                <h4 class="title-heading">Ears</h4>
+                    <ul class="ears">
+                        <button type="button" data-src="assets/ears/default.png">Default</button>
+                        <button type="button" data-src="assets/ears/tilt-backward.png">Tilt-Backward</button>
+                        <button type="button" data-src="assets/ears/tilt-forward.png">Tilt-forward</button>
+                    </ul>
+                </div>
+
+                <div class="eyes-selection-window"></div>   
+                <h4 class="title-heading">Eyes</h4>
+                    <ul class="eyes">
+                        <button type="button" data-src="assets/eyes/default.png">Default</button>
+                        <button type="button" data-src="assets/eyes/angry.png">Angry</button>
+                        <button type="button" data-src="assets/eyes/naughty.png">Naughty</button>
+                        <button type="button" data-src="assets/eyes/panda.png">Panda</button>
+                        <button type="button" data-src="assets/eyes/smart.png">Smart</button>
+                        <button type="button" data-src="assets/eyes/star.png">Star</button>
+                    </ul>
+                </div>
+
+                <div class="mouth-selection-window"></div>   
+                <h4 class="title-heading">Mouth</h4>
+                    <ul class="mouth">
+                        <button type="button" data-src="assets/mouth/default.png">Default</button>
+                        <button type="button" data-src="assets/mouth/eating.png">Eating</button>
+                        <button type="button" data-src="assets/mouth/laugh.png">Laugh</button>
+                        <button type="button" data-src="assets/mouth/tongue.png">Tongue</button>
+                        <button type="button" data-src="assets/mouth/astonished.png">Astonished</button>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</body>
+</html>

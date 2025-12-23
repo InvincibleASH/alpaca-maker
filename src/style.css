@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #12171c;
+}
+
+nav{
+    height: 60px;
+    background-color: #d48d60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.heading{
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.download-btn{
+    position: absolute;
+    right: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+.download-btn:hover{
+    background-color: #222;
+}
+
+.builder {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+.aplaca{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    border: 6px solid #dad6d6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.preview{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.aplaca img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title-heading{
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.slider {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.controls ul button {
+  background-color: #000;
+  color: #ffd700;
+  border: 2px solid #ffd700;
+  border-radius: 12px;
+  padding: 8px 14px;
+  margin: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+}
+
+.controls ul button:hover {
+  background-color: #ffd700;
+  color: #000;
+}
+
+.controls ul button:active {
+  transform: scale(0.96);
+}
+
+.controls ul button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.6);
+}
+
+.controls {
+    padding-top: 80px;
+    padding-right: 100px;
+    padding-left: 80px;
+}
+
+.title-heading{
+    font-weight: 800;
+    font-size: 24px;
+    color:#fff;
+}
