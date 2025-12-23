@@ -1,6 +1,6 @@
-# Aplaca Maker 🦙
+# Alpaca Maker 🦙
 
-A browser-based Alpaca (Aplaca) image generator that allows users to customize an avatar by selecting different backgrounds, hair styles, eyes, ears, mouths, accessories, and more. The final image can be downloaded directly from the browser.
+A browser-based Alpaca (Alpaca) image generator that allows users to customize an avatar by selecting different backgrounds, hair styles, eyes, ears, mouths, accessories, and more. The final image can be downloaded directly from the browser.
 
 ---
 
@@ -31,7 +31,7 @@ A browser-based Alpaca (Aplaca) image generator that allows users to customize a
 
 ## 📁 Project Structure
 
-aplaca-maker/
+alpaca-maker/
 ├── index.html
 ├── style.css
 ├── script.js
@@ -50,10 +50,10 @@ aplaca-maker/
 ## ▶️ How to Run Locally
 
 1. Clone the repository:
-   git clone https://github.com/InvincibleASH/aplaca-maker.git
+   git clone https://github.com/InvincibleASH/alpaca-maker.git
 
 2. Navigate to the project folder:
-   cd aplaca-maker
+   cd alpaca-maker
 
 3. Open index.html in your browser:
    - Double-click the file
@@ -63,7 +63,7 @@ aplaca-maker/
 
 ## 🌐 Live Demo
 
-https://invincibleash.github.io/aplaca-maker/
+https://invincibleash.github.io/alpaca-maker/
 
 ---
 
