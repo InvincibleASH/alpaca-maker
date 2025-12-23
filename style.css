@@ -55,7 +55,7 @@ nav{
     height: calc(100vh - 60px);
 }
 
-.aplaca{
+.alpaca{
     position: relative;
     width: 400px;
     height: 550px;
@@ -72,7 +72,7 @@ nav{
     padding-left: 50px;
 }
 
-.aplaca img{
+.alpaca img{
     position: absolute;
     top: 0;
     left: 0;

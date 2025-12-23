@@ -57,7 +57,7 @@ const mouth = document.querySelector('.preview .layer-mouth');
 // Download button functionality
 
 const downloadBtn = document.querySelector('.download-btn');
-  const preview = document.querySelector('.preview .aplaca');
+  const preview = document.querySelector('.preview .alpaca');
 
   downloadBtn.addEventListener('click', () => {
     html2canvas(preview, {
