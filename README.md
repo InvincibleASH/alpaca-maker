@@ -31,6 +31,7 @@ A browser-based Alpaca (Alpaca) image generator that allows users to customize a
 
 ## 📁 Project Structure
 
+```
 alpaca-maker/
 ├── index.html
 ├── style.css
@@ -44,7 +45,7 @@ alpaca-maker/
 │   ├── accessories/
 │   └── neck/
 └── README.md
-
+```
 ---
 
 ## ▶️ How to Run Locally
